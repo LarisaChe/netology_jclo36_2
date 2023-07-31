@@ -1,7 +1,7 @@
 services:
 
   task4:
-    image: 'apptask4'
+    image: 'apptask4n'
     ports:
       - '8080:8080'
 
