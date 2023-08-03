@@ -1,7 +1,7 @@
 FROM openjdk:17-jdk-alpine
 
-EXPOSE 8080
+EXPOSE 8081
 
-COPY build/libs/netology_jclo36_2-0.0.1-SNAPSHOT.jar apptask4n.jar
+ADD build/libs/netology_jclo36_2-0.0.1-SNAPSHOT.jar apptask5.jar
 
-CMD ["java", "-jar", "apptask4n.jar"]
+ENTRYPOINT ["java","-jar","/apptask5.jar"]
